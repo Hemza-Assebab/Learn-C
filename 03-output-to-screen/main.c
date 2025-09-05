@@ -25,6 +25,5 @@ int main() {
      * - When working with text, it must be wrapped inside double quotes "Text here"
      * - printf() doesn't insert a new line at the end of the ouput (Check \n escape sequence)
      */
-
     return 0;
 }
