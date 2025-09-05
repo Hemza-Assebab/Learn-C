@@ -22,7 +22,7 @@
 int main() {
 
     /**
-     * NOTE: 
+     * NOTES: 
      * - Every statement in C ends with a semicolon ";" .
      * - A computer program is a list of instructions to be executed by a computer.
      * - In a programming language these instructions are called statements
