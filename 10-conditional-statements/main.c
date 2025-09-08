@@ -1,6 +1,7 @@
 /* Conditional Statements */
 
 #include <stdio.h>
+#include <stdbool.h>
 
 int main() {
     /* if Statement */
@@ -56,6 +57,19 @@ int main() {
     } else {
         printf("Failed\n");
     }
+
+    /* Shorthand if-else (Ternary Operator) */
+    /*
+        -It's a compact way to write an if-else statement in a single line
+        -It's called ternary because it uses three operands
+        -It's good for short decisions and assignments, but not good for very complex conditions
+        -Syntax: condition ? expression_if_true : expression_if_false;
+    */
+    int a = 10;
+    int b = 20;
+    int max;
+    max = (a > b) ? a : b;
+    printf("%d\n", max);
 
     /* switch Statement */
     /*
